@@ -16,3 +16,15 @@ python -m src.train
 # Launch dashboard
 streamlit run app/streamlit_app.py
 ```
+
+## 🗂️ Project Structure
+├── app/ # Streamlit dashboard UI code
+│ └── streamlit_app.py
+├── src/ # Model training and helper scripts
+│ ├── train.py
+│ └── utils.py # (coming in a later step)
+├── artifacts/ # Auto-generated files: model, metrics, sample data
+├── requirements.txt # Project dependencies
+├── README.md # Project overview and instructions
+├── .gitignore # Ignore unnecessary files and folders
+└── assets/ # Screenshots, SHAP plots, etc. (optional)
